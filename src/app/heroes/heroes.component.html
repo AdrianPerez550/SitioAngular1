@@ -1,11 +1,29 @@
 <h2>{{hero.name | uppercase}} Details</h2>
 <div><span>id: </span>{{hero.id}}</div>
 <div>
-<label for="name"> nombre del super heroe: </label>
+<label for="name"> Nombre del super heroe: </label>
 <input id ="name" [(ngModel)]="hero.name" placeholder="name">
 
 </div>
 <div>
-<label for="edad"> edad de super heroe: </label>
+<label for="edad"> Edad de super heroe: </label>
 <input id ="edad" [(ngModel)]="hero.edad" placeholder="edad">
 </div>
+
+
+<div>
+  <label for="tippoder"> Tipo de super poder : </label>
+  <input id ="tippoder" [(ngModel)]="hero.tippoder" placeholder="tippoder">
+  </div>
+
+
+  <div>
+    <label for="identidad"> Identidad del super heroe: </label>
+    <input id ="identidad" [(ngModel)]="hero.identidad" placeholder="identidad">
+    </div>
+
+
+    <div>
+      <label for="universo"> Universo en la que pertence: </label>
+      <input id ="universo" [(ngModel)]="hero.universo" placeholder="universo">
+      </div>
