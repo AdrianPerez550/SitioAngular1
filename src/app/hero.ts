@@ -2,7 +2,8 @@ export interface  Hero {
     id: number;
     name: string;
     edad: number;
-    tippoder: string;
+	  tippoder: string;
     identidad: string;
-    universo: string;
+    universo:  string;
+
 }
