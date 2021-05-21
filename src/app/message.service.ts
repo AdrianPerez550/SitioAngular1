@@ -13,7 +13,7 @@ export class MessageService {
   add(message: string) {
     this.messages.push(message);
   }
-//Se realiza la limpieza  de los mensajes
+//Se realiza la limpieza  de los mensaje
   clear() {
     this.messages = [];
   }
