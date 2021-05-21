@@ -1,3 +1,5 @@
+
+//Se realiza las expotacion de los valores de Hero
 export interface  Hero {
     id: number;
     name: string;

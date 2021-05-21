@@ -12,16 +12,16 @@ export const HEROES: Hero[] = [
 
   {
     id: 12,
-    name: 'Batman',
-    edad: 30,
-    tippoder: 'Superinteligente',
+    name: 'Dr.Strange',
+    edad: 55,
+    tippoder: 'Supermagia',
     identidad: 'Bruce Wayne',
     universo: 'DC Comics',
   },
 
   {
     id: 13,
-    name: 'Hulk',
+    name: 'Literna Verde',
     edad: 40,
     tippoder: 'Superfuerza',
     identidad: 'Bruce Banner',
@@ -39,7 +39,7 @@ export const HEROES: Hero[] = [
 
   {
     id: 15,
-    name: 'Thor',
+    name: 'Wonder Woman',
     edad: 1000,
     tippoder: 'Superfuerza',
     identidad: 'Clark Joseph Kent',
@@ -48,7 +48,7 @@ export const HEROES: Hero[] = [
 
   {
     id: 16,
-    name: 'Cyborg',
+    name: 'Robin',
     edad: 25,
     tippoder: 'Superrobot',
     identidad: 'Lee Thompson Young',
@@ -57,7 +57,7 @@ export const HEROES: Hero[] = [
 
   {
     id: 17,
-    name: 'Aquaman',
+    name: 'Bruja escarlata',
     edad: 28,
     tippoder: 'Supertelepatia',
     identidad: 'Arthur Curry',
@@ -66,7 +66,7 @@ export const HEROES: Hero[] = [
 
   {
     id: 18,
-    name: 'Flash',
+    name: 'Capitana Marvel',
     edad: 28,
     tippoder: 'Supervelocidad',
     identidad: 'Barry Allen',
@@ -75,16 +75,16 @@ export const HEROES: Hero[] = [
 
   {
     id: 19,
-    name: 'Bruja Escarlata',
-    edad: 36,
-    tippoder: 'Control de tiempo',
-    identidad: 'Elizabeth Olsen',
-    universo: 'Marvel',
+    name: 'Cibord',
+    edad: 28,
+    tippoder: 'Superobot',
+    identidad: 'Victor Stone',
+    universo: 'DC Comics',
   },
 
   {
     id: 20,
-    name: 'Wonder Woman',
+    name: 'Ant-Man',
     edad: 30,
     tippoder: 'Superfuerza',
     identidad: ' Diana Prince',

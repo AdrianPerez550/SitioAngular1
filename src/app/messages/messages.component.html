@@ -1,6 +1,8 @@
+<!-- *NgIf solo muestra el área de mensajes si hay mensajes para mostrar. -->
 <div *ngIf="messageService.messages.length">
-
+<!-- lo que va aparecer en la pagina  -->
   <h2>Mensajes</h2>
+<!-- Un enlace de evento en angular une el evento de clic del botón a MessageService.clear (). -->
   <button class="clear"
           (click)="messageService.clear()">Limpiar mensajes</button>
   <div *ngFor='let message of messageService.messages'> {{message}} </div>
